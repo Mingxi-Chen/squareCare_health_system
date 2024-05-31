@@ -1,0 +1,135 @@
+.chat-sidebar {
+  max-width: 400px;
+  width: 100%;
+  margin: 5px;
+  background: white;
+  height: 98vh;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.chat-search {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.chat-add-form {
+  width: 460px;
+  background: white;
+  padding: 0px;
+}
+
+.group-card {
+  border: 1px solid lightgray;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.chat-wrapper {
+  display: flex;
+  overflow: hidden;
+}
+
+.chat-main {
+  width: 100%;
+}
+
+.main-chat-window {
+  border-radius: 10px;
+  margin: 5px;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.user-list {
+  overflow: auto;
+  height: 80%;
+}
+
+.chat-content {
+  background: white;
+  padding: 20px 10px 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.chat-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-card .message-text {
+  border: 1px solid #5932ea;
+  color: #5932ea;
+  align-self: flex-start;
+  padding: 10px 20px;
+  margin-bottom: 2px;
+  display: block;
+  max-width: 24vw;
+  min-width: 6vw;
+  text-overflow: ellipsis;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: large;
+}
+
+.card-item {
+  gap: 10px;
+  max-width: 6vw;
+}
+
+.card-item.own {
+  flex-direction: row-reverse;
+  align-self: flex-end;
+}
+
+.card-item.own .message-text {
+  background: #7879f1;
+  align-self: flex-end;
+  color: white;
+}
+
+.card-item.own .message-file {
+  margin: 0 0 5px auto;
+}
+
+.card-item.own .message-time {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chat-card .message-time {
+  font-size: 14px;
+  color: gray;
+  margin: 5px 0 0 5px;
+}
+.message-bar {
+  background: white;
+  border-radius: 10px;
+}
+
+.message-bar button {
+  color: #1976d2;
+}
+
+.notification {
+  font-size: 18px;
+  border-radius: 50%;
+  background: red;
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  height: 30px;
+  color: white !important;
+}

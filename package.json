@@ -1,0 +1,88 @@
+{
+  "name": "new",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@emailjs/browser": "^4.3.3",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fullcalendar/core": "^6.1.11",
+    "@fullcalendar/daygrid": "^6.1.11",
+    "@fullcalendar/interaction": "^6.1.11",
+    "@fullcalendar/react": "^6.1.11",
+    "@mui/icons-material": "^5.15.14",
+    "@mui/joy": "^5.0.0-beta.32",
+    "@mui/material": "^5.15.15",
+    "@mui/x-data-grid": "^7.1.0",
+    "@mui/x-data-grid-generator": "^7.0.0",
+    "@mui/x-date-pickers": "^7.1.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fullcalendar": "^6.1.11",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^9.2.0",
+    "mongoose": "^8.2.3",
+    "multer": "^1.4.5-lts.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^10.0.5",
+    "supertest": "^7.0.0",
+    "web-vitals": "^2.1.4",
+    "websocket": "^1.0.34"
+  },
+  "proxy": "http://localhost:8000",
+  "scripts": {
+    "start": "react-scripts start",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --only=dev && npm install  && npm run build",
+    "build": "react-scripts build",
+    "test": "jest --detectOpenHandles",
+    "eject": "react-scripts eject",
+    "cypress:run": "npx cypress run"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": "9.5.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!(axios)/)"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    }
+  },
+  "devDependencies": {
+    "cypress": "^13.9.0",
+    "jest": "^27.5.1",
+    "supertest": "^7.0.0"
+  }
+}
