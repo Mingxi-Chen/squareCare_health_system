@@ -1,3 +1,21 @@
+# Introduction 
+
+This project is a hospital management system (Square Care), developed to revolutionize traditional hospital workflows, integrates real-time communication, sophisticated scheduling algorithms, and a comprehensive platform for staff and patient management, significantly enhancing operational efficiency and patient care quality.
+
+## Technology applied
+React, Node.js, Express, MongoDB, CI/CD (GitHub Action), Cypress IO,Heroku
+
+## Real look
+<img width="1511" alt="截屏2024-05-14 上午10 58 44" src="https://github.com/Mingxi-Chen/squareCare_health_system/assets/99438536/2e0c874e-5af6-4cc2-84a7-2b70b012417d">
+<img width="1512" alt="截屏2024-05-14 上午10 57 22" src="https://github.com/Mingxi-Chen/squareCare_health_system/assets/99438536/6838efbe-e8c6-444c-b870-1f657381503b">
+<img width="1512" alt="截屏2024-05-14 上午10 58 32" src="https://github.com/Mingxi-Chen/squareCare_health_system/assets/99438536/f932678f-63c9-4168-9c52-deb748408658">
+<img width="1512" alt="截屏2024-05-14 上午10 57 39" src="https://github.com/Mingxi-Chen/squareCare_health_system/assets/99438536/519a45e7-7b78-4b17-b301-301e04db9b49">
+<img width="1512" alt="截屏2024-05-14 上午10 57 56" src="https://github.com/Mingxi-Chen/squareCare_health_system/assets/99438536/8377071e-9423-4c20-80fa-6a7d81fc8775">
+<img width="1512" alt="截屏2024-05-14 上午10 58 04" src="https://github.com/Mingxi-Chen/squareCare_health_system/assets/99438536/410a6589-af62-47bf-8494-e7332d9254b0">
+<img width="1512" alt="截屏2024-05-14 上午10 58 12" src="https://github.com/Mingxi-Chen/squareCare_health_system/assets/99438536/5a9afb69-8fec-4467-b56e-34691c90f12f">
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
